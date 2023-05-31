@@ -18,3 +18,10 @@ public:
 	}
 };
 
+int main() {
+	AbstraksiKlas ak;
+	ak.setXY("Yogyakart", "Kampus");
+	ak.display();
+
+	return 0;
+}
